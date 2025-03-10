@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/946114997.svg)](https://doi.org/10.5281/zenodo.15001408)
 
 ## *GuiaTypst* - Guia de usos, exemplos e template para TCC
 
@@ -12,7 +12,7 @@ Neste repositório você encontra:
 Se você pretende usar o material deste repositório para escrever o seu Trabalho de Conclusão de Curso, siga os passos abaixo na ordem em que se apresentam:
 
 1. Leia e estude cuidadosamente o [Guia de usos e exemplos do Typst](https://github.com/jocoteles/GuiaTypst/blob/main/guia/guiaTypst.pdf).
-1. Faça o download [deste repositório](https://github.com/jocoteles/GuiaTypst/tree/main/TCC) para o seu computador.
+1. Faça o download [deste repositório](https://zenodo.org/records/15001409/files/jocoteles/GuiaTypst-v0.1.0.zip?download=1) para o seu computador.
 1. Com a pasta baixada, você tem duas opções:
     - fazer o upload dos arquivos da pasta `TCC` para o [editor online do Typst](https://typst.app/) e/ou
     - instalar o Typst localmente no seu computador e usar um editor de texto/código compatível com o Typst. (Neste caso recomendamos o [VS Code](https://code.visualstudio.com/))
