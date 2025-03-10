@@ -20,7 +20,7 @@
 
 Antes de utilizar este modelo, certifique-se de:
 
-- estudar cuidadosamente o #link("https://github.com/jocoteles/GuiaTypst/guia/guiaTypst.pdf")[Guia de usos e exemplos do Typst] e
+- estudar cuidadosamente o #link("https://github.com/jocoteles/GuiaTypst/blob/main/guia/guiaTypst.pdf")[Guia de usos e exemplos do Typst] e
 - estudar as #link("https://www.fisicaararas.ufscar.br/pt-br/assets/arquivos/4-regulamento-final-da-monografia-i-e-ii-2016.pdf#page=6.10")[Normas para realização da monografia dos cursos de Licenciatura do CCA UFSCar].
 
 A introdução é a parte inicial do texto, na qual devem constar a formulação e delimitação do assunto tratado. Tem por finalidade fornecer ao leitor os antecedentes que justificam o projeto, assim como enfocar o assunto a ser abordado. A introdução pode incluir informações sobre a natureza e importância do problema, sua relação com outros estudos sobre o mesmo assunto e suas limitações. Essa seção deve representar a essência do pensamento do autor em relação ao assunto que pretende estudar. Deve ser abrangente sem ser prolongada.
