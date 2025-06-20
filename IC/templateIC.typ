@@ -13,13 +13,13 @@ com modificações mínimas e correção de erros de tamanho de fonte e redundâ
 // (Mantidas do templateTCC.typ)
 //--------------------------------------------------------------
 
-#let espacoAbaixoParagrafo = 6pt
+#let espacoAbaixoParagrafo = 1.5em
 #let espacoAbaixoTitulo = 6pt
 #let espacoAcimaTitulo = 18pt
 #let fonte = "Liberation Serif" // Usuário pode alterar para "Arial" ou "Times New Roman"
 #let tamanhoFonteCorpoIC = 12pt // Específico para IC
 #let indentacao = 2.5em
-#let espacamentoLinhaCorpoIC = 0.5em // Para espaçamento 1.5 linhas
+#let espacamentoLinhaCorpoIC = 0.8em // Para espaçamento 1.5 linhas
 
 
 //Definição do Template:
@@ -53,7 +53,7 @@ com modificações mínimas e correção de erros de tamanho de fonte e redundâ
   set par(
     leading: espacamentoLinhaCorpoIC,
     spacing: espacoAbaixoParagrafo,
-    first-line-indent: indentacao,
+    first-line-indent: (amount: indentacao, all: true),
     justify: true,
   )
 
@@ -99,11 +99,11 @@ set math.vec(
   }
   
   //Capa Simplificada (adaptada da capa do TCC):
-  page({
+  page({    
     set text(hyphenate: false, weight: "bold") // Aplica bold globalmente na capa
     set par(justify: false, first-line-indent: 0em, leading: 0.6em)
     grid(
-      rows: (1fr, 1fr, 0.5fr, 2fr, 1fr),
+      rows: (1fr, 1fr, 1fr, 1fr, 1fr),
       align(top + center,
         text(size: 14pt)[
           #upper(instituicao)\
@@ -188,6 +188,5 @@ set math.vec(
   cite(reference, form: "prose")
 }
 #let mi = text("µ")
-#let mu = mi
 #let sen = math.op("sen")
 #let noi = h(-indentacao)

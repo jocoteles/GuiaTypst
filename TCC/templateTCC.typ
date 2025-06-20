@@ -57,7 +57,7 @@ acessível em: https://www.fisicaararas.ufscar.br/pt-br/assets/arquivos/4-regula
   set par(
     leading: 0.8em, //Espaçamento entre linhas
     spacing: 1.5em, //Espaçamento abaixo dos parágrafos
-    first-line-indent: (amount: 2.5em, all: true),    
+    first-line-indent: (amount: indentacao, all: true),    
     justify: true,
   )
  
