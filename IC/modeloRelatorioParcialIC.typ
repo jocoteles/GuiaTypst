@@ -33,9 +33,7 @@
 - *Centro:* #vars.centro
 - *Departamento*: #vars.departamento
 - *Orientador(a)*: #vars.orientador
-#if vars.coorientador != none and vars.coorientador != [] [
-  - *Coorientador(a)*: #vars.coorientador
-]
+//- *Coorientador(a)*: #vars.coorientador
 - *Aluno(a)*: #vars.autor
 - *Titulo do projeto*: #vars.titulo
 - *Período de vigência*: #vars.periodo_vigencia
