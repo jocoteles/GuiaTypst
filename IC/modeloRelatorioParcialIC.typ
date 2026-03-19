@@ -4,6 +4,7 @@
   tipo_documento_ic: [Relatório Parcial de Iniciação Científica  \ [Nome e número do EDITAL]],
   autor: [Nome Completo do(a) Aluno(a)],
   orientador: [Prof(a). Dr(a). Nome Completo do(a) Orientador(a)],
+  coorientador: none,
   titulo: [Título do Projeto de IC [Número do projeto no sistema SAGUI]],
   periodo_vigencia: [DD/MM/AAAA a DD/MM/AAAA], // Período da bolsa ou cadastro ICT
   local: [Araras-SP],
@@ -32,6 +33,9 @@
 - *Centro:* #vars.centro
 - *Departamento*: #vars.departamento
 - *Orientador(a)*: #vars.orientador
+#if vars.coorientador != none and vars.coorientador != [] [
+  - *Coorientador(a)*: #vars.coorientador
+]
 - *Aluno(a)*: #vars.autor
 - *Titulo do projeto*: #vars.titulo
 - *Período de vigência*: #vars.periodo_vigencia

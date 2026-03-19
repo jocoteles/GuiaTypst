@@ -7,6 +7,7 @@
   // Deixe como 'none' ou remova as linhas.
   autor: none, // [NÃO INCLUIR - PROJETO ANÔNIMO],
   orientador: none, // [NÃO INCLUIR - PROJETO ANÔNIMO],
+  coorientador: none, 
   local: [Araras-SP],
   ano: [20XX],
   instituicao: [Universidade Federal de São Carlos],

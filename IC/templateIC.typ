@@ -36,6 +36,7 @@ com modificações mínimas e correção de erros de tamanho de fonte e redundâ
 
   autor: none,
   orientador: none,
+  coorientador: none,
   periodo_vigencia: none,
 
   // Controle e conteúdo de Resumo e Sumário
@@ -133,6 +134,10 @@ set math.vec(
           text(size: 12pt)[Orientador(a): #orientador]
            v(0.5em)
         }
+        if coorientador != none and coorientador != [] {
+          text(size: 12pt)[Coorientador(a): #coorientador]
+           v(0.5em)
+        }
       }),
       align(bottom + center,
         text(size: 14pt)[
@@ -174,6 +179,13 @@ set math.vec(
   text(origin_color, [[#origin]])
   text(orange, [*#comment*])
   text(blue, [[_Orientador_]])
+}
+
+/* Função para uso do coorientador para efetuar comentários.*/
+#let coo(origin, comment, origin_color: red) = {
+  text(origin_color, [[#origin]])
+  text(orange, [*#comment*])
+  text(blue, [[_Coorientador_]])
 }
 
 /* Função para uso do autor para efetuar comentários.*/
