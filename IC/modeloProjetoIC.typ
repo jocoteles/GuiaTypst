@@ -71,6 +71,8 @@ Apresente um cronograma das atividades a serem desenvolvidas ao longo do períod
 
 Liste todas as fontes citadas no projeto, seguindo as normas da ABNT. O arquivo `referencias.yml` (ou .bib) deve ser usado aqui.
 
+// O Typst suporta diversos formatos de bibliografia, como BibTeX (.bib) e Hayagriva (.yml).
+// Para detalhes sobre o formato YAML: https://github.com/typst/hayagriva/blob/main/docs/file-format.md
 #bibliography("referencias.yml", title: none, style:"associacao-brasileira-de-normas-tecnicas")
 
 // --- Fim do Conteúdo ---

@@ -299,5 +299,9 @@ Repare que para a construção do quadro usa-se a mesma função da tabela (#typ
 
 Da mesma forma que para figuras, no caso de seções e subseções não se refira a elas como "na seção anterior", "na seção seguinte", etc., mas utilize a numeração automática. Para isso, inclua um rótulo a direita do texto da seção. Por exemplo: #typw("== Análise dos Resultados <sec_analise>"), que é referenciada ao longo do texto como, por exemplo, #typw("Estas conclusões estão em acordo com a discussão da @sec_analise").
 
+== Referências Bibliográficas
+
+O Typst possui suporte nativo para bibliografias em formatos como BibTeX (`.bib`) e YAML (através do motor Hayagriva). Embora o BibTeX seja amplamente utilizado, o formato YAML é recomendado por sua clareza e estrutura moderna. Você pode encontrar exemplos no arquivo `referencias.yml` deste guia. Para uma explicação completa do modelo YAML e todos os campos suportados, acesse a documentação oficial do formato: #link("https://github.com/typst/hayagriva/blob/main/docs/file-format.md")[Hayagriva File Format].
+
 #bibliography("referencias.yml", style:"associacao-brasileira-de-normas-tecnicas")
 

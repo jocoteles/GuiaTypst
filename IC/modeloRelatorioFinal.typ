@@ -108,6 +108,8 @@ O(A) orientador(a) deve informar sobre o destino do(a) aluno(a): se concluiu a g
 
 Apresente todas as fontes bibliográficas consultadas e citadas no relatório, seguindo as normas da ABNT.
 
+// O Typst suporta diversos formatos de bibliografia, como BibTeX (.bib) e Hayagriva (.yml).
+// Para detalhes sobre o formato YAML: https://github.com/typst/hayagriva/blob/main/docs/file-format.md
 #bibliography("referencias.yml", title: none, style:"associacao-brasileira-de-normas-tecnicas")
 
 // --- Fim do Conteúdo ---

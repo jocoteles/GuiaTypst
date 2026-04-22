@@ -91,6 +91,8 @@ Conclusão ou Considerações Finais devem responder a os objetivos do trabalho.
 
 = Referências
 
+// O Typst suporta diversos formatos de bibliografia, como BibTeX (.bib) e Hayagriva (.yml).
+// Para detalhes sobre o formato YAML: https://github.com/typst/hayagriva/blob/main/docs/file-format.md
 #bibliography("referencias.yml", title: none, style:"associacao-brasileira-de-normas-tecnicas")
 
 

@@ -75,6 +75,8 @@ No cronograma você dimensiona cada uma das etapas do desenvolvimento da pesquis
 
 = Referências
 
+// O Typst suporta diversos formatos de bibliografia, como BibTeX (.bib) e Hayagriva (.yml).
+// Para detalhes sobre o formato YAML: https://github.com/typst/hayagriva/blob/main/docs/file-format.md
 #bibliography("referencias.yml", title: none, style:"associacao-brasileira-de-normas-tecnicas")
 
 
